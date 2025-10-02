@@ -1,11 +1,18 @@
-import React from 'react';
+
+
+import MyShop from "./assets/MyShop"
+import './style.css'
 
 function App() {
+   
+
   return (
-    <div className="w-full h-screen flex justify-center items-center bg-green-500 text-white">
-      <h1 className="text-4xl font-bold">Hello TailwindCSS!</h1>
-    </div>
-  );
+    <>
+     
+      <MyShop />
+    
+    </>
+  )
 }
 
-export default App;
+export default App
